@@ -55,7 +55,7 @@ $datas = json_decode($response);
             <td><?php echo $data->task; ?></td>
             <td><?php echo $data->title; ?></td>
             <td><?php echo $data->description; ?></td>
-            <td><?php echo $data->colorCode; ?></td>
+            <td style=" color: <?php echo $data->colorCode; ?>"><?php echo $data->colorCode; ?></td>
         </tr>
 <?php } ?>
     </tbody>
